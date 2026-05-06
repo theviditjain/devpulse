@@ -175,5 +175,5 @@ devpulse/
 **Observability:** OpenTelemetry OTLP/JSON
 
 ---
-
+🔗 Live Demo: https://devpulse-dashboard-iota.vercel.app/
 Built by [Vidit Jain](https://github.com/theviditjain) — 3rd year BTech, 2025
