@@ -1,0 +1,5 @@
+{
+  "/api/fast/route": "app/api/fast/route.js",
+  "/api/slow/route": "app/api/slow/route.js",
+  "/page": "app/page.js"
+}

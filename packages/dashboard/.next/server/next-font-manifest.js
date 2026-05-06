@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/viditjain/Desktop/devpulse5/packages/dashboard/app/layout\":[\"static/media/78fec81b34c4a365.p.woff2\"]},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"

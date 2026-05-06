@@ -1,0 +1,56 @@
+{
+  "name": "@devpulse/core",
+  "version": "0.1.0",
+  "description": "Live performance monitoring engine for Next.js — data structures, collectors, WebSocket server",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "clean": "rm -rf dist coverage"
+  },
+  "keywords": [
+    "performance",
+    "monitoring",
+    "nextjs",
+    "react",
+    "devtools",
+    "profiler",
+    "bundle-analyzer",
+    "opentelemetry"
+  ],
+  "dependencies": {
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10",
+    "@vitest/coverage-v8": "^1.4.0",
+    "vitest": "^1.4.0",
+    "typescript": "^5.4.0"
+  },
+  "peerDependencies": {
+    "next": ">=13.0.0",
+    "react": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "next":  { "optional": true },
+    "react": { "optional": true }
+  },
+  "files": ["dist", "README.md"],
+  "license": "MIT",
+  "author": "Vidit Jain <theviditjain>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theviditjain/devpulse"
+  },
+  "bugs": { "url": "https://github.com/theviditjain/devpulse/issues" },
+  "homepage": "https://github.com/theviditjain/devpulse#readme"
+}
